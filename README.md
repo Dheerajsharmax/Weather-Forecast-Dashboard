@@ -1,9 +1,8 @@
 # Weather-Forecast-Dashboard
 
 <img width="1307" height="732" alt="image" src="https://github.com/user-attachments/assets/16694867-bfab-436c-91b6-1e3ec339c18e" />
-Absolutely 👍 Based on the **Power BI dashboard screenshot, data model, measures, and table structure** you shared, here is a complete **end-to-end project documentation** you can use for your portfolio, GitHub, LinkedIn project description, or interview explanation.
 
-🌦️ #Weather Analytics Dashboard — Power BI
+# 🌦️ Weather Analytics Dashboard — Power BI
 1. Project Overview
 
 The Weather Analytics Dashboard is an interactive Power BI project developed using WeatherAPI to fetch real-time weather and forecast data.
@@ -30,7 +29,7 @@ WeatherAPI
 
 The dashboard uses WeatherAPI as the primary external data source.
 
-WeatherAPI
+# WeatherAPI
 
 WeatherAPI provides weather information through REST API endpoints, which can return current weather as well as forecast information.
 
@@ -71,7 +70,7 @@ Noida
 
 The API response contains structured weather information that is transformed in Power Query before being loaded into the Power BI model.
 
-4. Power Query — Data Transformation
+# 4. Power Query — Data Transformation
 
 After retrieving the data from WeatherAPI, Power Query is used to prepare the API response for analysis.
 
@@ -96,13 +95,13 @@ Structuring daily forecast data
 Structuring hourly forecast data
 Final Tables
 
-The transformed API data is organized into:
+## The transformed API data is organized into:
 
 Current_Data
 Forecast_Data_Day
 Forecast_Data_Hour
 Location
-5. Data Model
+# 5. Data Model
 
 The project uses a relational model where the Location table acts as the central location dimension.
 
